@@ -64,3 +64,8 @@
 
  *** WARNING ***                         CP =      42.297   TIME= 15:59:29
  Assembly COMPL_CIRCLE is deleted.                                       
+
+ *** WARNING ***                         CP =      42.656   TIME= 15:59:37
+ The EPLO command cannot be executed.  The selected elements cannot be   
+ displayed by PowerGraphics.  To correct this situation, select          
+ different elements or turn off PowerGraphics.                           
