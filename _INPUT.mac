@@ -1,4 +1,5 @@
-init
+finish
+/clear
 
 d  = 464e-3
 bf = 150e-3
