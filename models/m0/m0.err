@@ -1,3 +1,66 @@
 /COM,ANSYS RELEASE 2023 R2           BUILD 23.2      UP20230531       15:18:22
 /COM,ANSYS RELEASE 2023 R2           BUILD 23.2      UP20230531       15:18:40
 /COM,ANSYS RELEASE 2023 R2           BUILD 23.2      UP20230531       15:21:14
+/COM,ANSYS RELEASE 2019 R2           BUILD 19.4      UP20190416       15:36:35
+
+ *** ERROR ***                           CP =       6.750   TIME= 15:42:55
+ Need at least 1 area and at least 1 line for ASBL command.              
+  Please input areas and lines.                                          
+
+ *** WARNING ***                         CP =       6.953   TIME= 15:42:59
+ ABL is not a recognized PREP7 command, abbreviation, or macro.          
+  This command will be ignored.                                          
+
+ *** WARNING ***                         CP =      10.594   TIME= 15:47:21
+ Assembly COMPA_WEB is deleted.                                          
+
+ *** WARNING ***                         CP =      10.938   TIME= 15:47:34
+ Assembly COMPL_CIRCLEEXT is deleted.                                    
+
+ *** WARNING ***                         CP =      11.797   TIME= 15:49:35
+ The mesh of area 3 contains PLANE182 triangles, which are much too      
+ stiff in bending.  Use quadratic (6- or 8-node) elements if possible.   
+
+ *** WARNING ***                         CP =      11.844   TIME= 15:49:35
+ The mesh of area 5 contains PLANE182 triangles, which are much too      
+ stiff in bending.  Use quadratic (6- or 8-node) elements if possible.   
+
+ *** WARNING ***                         CP =      11.906   TIME= 15:49:35
+ The mesh of area 6 contains PLANE182 triangles, which are much too      
+ stiff in bending.  Use quadratic (6- or 8-node) elements if possible.   
+
+ *** WARNING ***                         CP =      11.984   TIME= 15:49:35
+ The mesh of area 7 contains PLANE182 triangles, which are much too      
+ stiff in bending.  Use quadratic (6- or 8-node) elements if possible.   
+
+ *** ERROR ***                           CP =      21.609   TIME= 15:51:49
+ Wrong element type in the model.                                        
+  The element type to be used for creating a section mesh file must be   
+ 183 or 200.                                                             
+  The SECWRITE command is ignored.                                       
+
+ *** WARNING ***                         CP =      22.641   TIME= 15:52:09
+ Assembly COMPA_WEB is deleted.                                          
+
+ *** WARNING ***                         CP =      22.969   TIME= 15:52:09
+ Assembly COMPL_CIRCLEEXT is deleted.                                    
+
+ *** WARNING ***                         CP =      26.016   TIME= 15:54:02
+ Assembly COMPA_WEB is deleted.                                          
+
+ *** WARNING ***                         CP =      26.125   TIME= 15:54:02
+ Assembly COMPL_CIRCLEEXT is deleted.                                    
+
+ *** WARNING ***                         CP =      37.203   TIME= 15:57:11
+ The view for graph plots is currently NOT changeable.                   
+  To enable graph view manipulation, issue /GROPTS,VIEW,1.               
+
+ *** WARNING ***                         CP =      42.188   TIME= 15:59:29
+ ACALLSEL is not a recognized PREP7 command, abbreviation, or macro.     
+  This command will be ignored.                                          
+
+ *** WARNING ***                         CP =      42.234   TIME= 15:59:29
+ Assembly COMPA_WEB is deleted.                                          
+
+ *** WARNING ***                         CP =      42.297   TIME= 15:59:29
+ Assembly COMPL_CIRCLE is deleted.                                       

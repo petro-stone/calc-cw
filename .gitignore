@@ -1,0 +1,10 @@
+*.dwl
+*.dwl2
+*.bak
+
+/models/**/*.*
+!**/*.mac
+!**/*.png
+!**/*.txt
+!**/*.md
+!**/*.keep

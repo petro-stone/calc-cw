@@ -1,0 +1,69 @@
+init
+
+d  = 464e-3
+bf = 150e-3
+tf = 25e-3
+tw = 12e-3
+re = (114e-3)/2
+t  = 8.56e-3
+ri = re-t
+
+/prep7
+
+blc5 , 0 , (d-tf)/2  , bf , tf
+blc5 , 0 , -(d-tf)/2 , bf , tf
+
+asel,none
+blc5 , 0 , 0         , tw , d-2*tf
+cm,COMPA_web,area
+
+asel,none
+lsel,none
+cyl4 , 0 , 0         , re ,        , ri
+cm,COMPL_circle,line
+
+csys,1
+lsel,r,loc,x,re
+cm,COMPL_circleExt,line
+csys,0
+
+cmsel,s,COMPA_web
+asbl,COMPA_web,COMPL_circleExt,,delete,keep
+cm,COMPA_web,area
+asel,r,loc,y,-re,re
+adele,all,,,1
+
+allsel
+aglue,all
+
+et,1,plane183
+
+lesize,all,4e-3
+aatt,,,1
+amesh,all
+
+secwrite,'i_plus_pipe',sect,,1
+
+sectype,2,beam,mesh,'combo'
+secread,'i_plus_pipe',sect,,mesh
+
+allsel
+aclear,all
+adele,all
+ldele,all
+kdele,all
+
+k,1,0,0,0
+k,2,3,0,0,
+l,1,2
+
+et,2,188
+mp,ex,1,2e11
+mp,prxy,1,0.3
+
+latt,1,,2,,,,2
+lesize,all,,0.1
+lmesh,all
+
+/eshape,1
+eplot
